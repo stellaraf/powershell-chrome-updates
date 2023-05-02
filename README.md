@@ -7,7 +7,9 @@
   <br/>
 </div>
 
-`@stellaraf/powershell-chrome-updates` This powershell script is designed to force update google chrome with the latest release downloaded directly from google. There's also a Microsoft Edge update script in the repository, however there's no clear answer from Microsoft as to if the Edge Installation media will change or if the URL can be consistently used in the future.
+`@stellaraf/powershell-chrome-updates` This powershell script is designed to force update google chrome with the latest release downloaded directly from google. This script will automatically update the browser, even if its open (taking affect on next restart of the browser), and even can install in situations where the business manages the application through GPO or other extensions. 
+
+There's also a Microsoft Edge update script in the repository, however there's no clear answer from Microsoft as to if the Edge Installation media will change or if the URL can be consistently used in the future.
 
 # How to Use
 
